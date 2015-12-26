@@ -9,7 +9,7 @@ classes are nothing but modifiers for your html content. Once you decide your ht
 
 # Bootstrap Grid System
 
-![Link](http://pix.toile-libre.org/?img=1451162165.png)
+![grid-system](http://pix.toile-libre.org/?img=1451162165.png)
 
 # Bootstrap snippets
 
