@@ -9,23 +9,48 @@
 </head>
 <body>
 
+<!--col-md-4 apply to medium and larger sizes. it will take up 4 columns-->
+
 <div class="container">
 
-    <form action="" method="post" class="form-horizontal" role="form">
-        <div class="form-group">
-            <legend>Form Title</legend>
-        </div>
-    
-        
-    
-        <div class="form-group">
-            <div class="col-sm-10 col-sm-offset-2">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </div>
-    </form>
+    <div class="row">
+
+    <div class="col-xs-8 col-md-4">
+
+        <p> Always 12 columns
+            Smaller sizes set the default for larger sizes
+            col-sm- would set the size for small, medium and large screens unless overridden by a setting specific to one of the larger sizes
+            There is a 30px "gutter", or empty space, between each column (15px on each side of the column)
+            The gutter on the outside of the container varies based on the current screen size
+            Extra small devices always use the entire width of the screen
+        </p>
+    </div>
+
+    <div class="col-xs-8 col-md-4">
+
+        <p> Always 12 columns
+            Smaller sizes set the default for larger sizes
+            col-sm- would set the size for small, medium and large screens unless overridden by a setting specific to one of the larger sizes
+            There is a 30px "gutter", or empty space, between each column (15px on each side of the column)
+            The gutter on the outside of the container varies based on the current screen size
+            Extra small devices always use the entire width of the screen
+        </p>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+
+        <p>Always 12 columns
+            Smaller sizes set the default for larger sizes
+            col-sm- would set the size for small, medium and large screens unless overridden by a setting specific to one of the larger sizes
+            There is a 30px "gutter", or empty space, between each column (15px on each side of the column)
+            The gutter on the outside of the container varies based on the current screen size
+            Extra small devices always use the entire width of the screen
+        </p>
+    </div>
+    </div>
 
 </div>
+
 
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -9,7 +9,64 @@ classes are nothing but modifiers for your html content. Once you decide your ht
 
 # Bootstrap Grid System
 
-![grid-system](http://pix.toile-libre.org/?img=1451162165.png)
+http://pix.toile-libre.org/?img=1451162165.png
+
+* The grid has 12 columns
+* there are four grid systems
+     large, medium, small, very small
+
+Grid notes
+
+    Always 12 columns
+    Smaller sizes set the default for larger sizes
+        col-sm- would set the size for small, medium and large screens unless overridden by a setting specific to one of the larger sizes
+    There is a 30px "gutter", or empty space, between each column (15px on each side of the column)
+    The gutter on the outside of the container varies based on the current screen size
+        Extra small devices always use the entire width of the screen
+
+
+Grid size classes
+
+Structure of Bootstrap classes for sizing grid content
+
+    col
+        Short for column
+        Required prefix
+    size abbreviation
+        xs for Extra small
+        sm for Small
+        md for Medium
+        lg for Large
+    Number of columns
+        Integer to represent the number of columns
+
+Examples
+
+Let's take a look at a couple of sample Bootstrap content sizing classes:
+
+    col-md-4 would indicate 4 columns for medium and large screens
+    col-sm-6 would indicate 6 columns for small, medium and large screens
+    col-xs-2 would indicate 2 columns for extra small, medium and large screens
+
+Remember that screen size rules apply for the specified screen size as well as those larger than that size, unless overriden. So the following combination would indicate 2 columns for extra small screens, 6 columns for small screens, and 4 for medium and large screens.
+
+<div class='col-xs-2 col-sm-6 col-md-4'>Content</div>
+
+size between each columns is 15px, there is a size
+
+**if column cannot be contained in one row then it will choose another row**
+for example 
+
+<div class="col-md-4">
+<div class="col-xs-1">
+<div class="col-lg-10">
+
+*<div class="col-md-4"> since here we have not defined any size for small then it will take up all the 12 sizes*
+
+
+The last one will take up the complete row hence a new row will be selected
+
+**always make sure the column numbers are adding to 12 **
 
 # Bootstrap snippets
 
