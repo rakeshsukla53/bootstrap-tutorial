@@ -1,6 +1,7 @@
 # Bootstrap-tutorial
 
 `Bootstrap Themes` You can download themes from here <https://bootswatch.com/>
+
 Download the themes from here, and you just need to replace the css files in the main `css` folder
 
 Most everything that you want to add onto a page by using Bootstrap is done by adding classes and HTML to the page. There are numerous Bootstrap classes. Fortunately, you don't have to know or memorize all of them.
@@ -55,18 +56,19 @@ Remember that screen size rules apply for the specified screen size as well as t
 size between each columns is 15px, there is a size
 
 **if column cannot be contained in one row then it will choose another row**
+
 for example 
 
 <div class="col-md-4">
 <div class="col-xs-1">
 <div class="col-lg-10">
 
-*<div class="col-md-4"> since here we have not defined any size for small then it will take up all the 12 sizes*
+<div class="col-md-4"> since here we have not defined any size for small then it will take up all the 12 sizes*
 
 
 The last one will take up the complete row hence a new row will be selected
 
-**always make sure the column numbers are adding to 12 **
+**always make sure the column numbers are adding to 12**
 
 # Bootstrap snippets
 
