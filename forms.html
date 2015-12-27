@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Tutorial</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+
+</head>
+<body>
+
+<!--col-md-4 apply to medium and larger sizes. it will take up 4 columns-->
+
+<div class="container">
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="address" class="control-label col-md-3">Address:</label>
+            <div class="col-md-6">
+                <input type="text" name="address" id="address" class="form-control" />
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="username" class="control-label col-md-3">Username:</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-user"></span>
+                </div>
+                <input type="text" class="form-control" name="username" id="username" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <div class="col-md-offset-3 btn-group" data-toggle="buttons">
+            <label class="btn btn-primary">
+                <input type="radio" id="first" name="sample" />
+                First
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" id="second" name="sample" />
+                Second
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-default col-md-offset-3 col-md-4">Submit form</button>
+    </div>
+</form>
+
+
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

@@ -294,13 +294,66 @@ A carousel is a paging data display. It's ideal for looping through a group of p
 The carousel control is really four parts. The first part is the container for the carousel. Inside of the container, you will create the set of indicators for the current slide, the container for all of the slides, and the navigation to allow the user to change slides.
 
 
+# Bootstrap forms
+
+Bootstrap offers great support for collecting information from users, as well as providing feedback. As with everything else in Bootstrap, you create forms by adding the appropriate classes and HTML structure to your pages.
+
+    <form class="form-horizontal">
+            <div class="form-group">
+                <label for="address" class="control-label col-md-3">Address:</label>
+                <div class="col-md-6">
+                    <input type="text" name="address" id="address" class="form-control" />
+                </div>
+            </div>
+        </form>
+
+HTML5 offers several improvements over the classic HTML controls, including the ability to add placeholders, and support for new data-types, such as email addresses. However, you'll notice that textboxes still look like textboxes. Bootstrap offers the ability to enhance textboxes, providing more inline support and guidance as to the type of data you expect from a user.
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="username" class="control-label col-md-3">Username:</label>
+            <div class="col-md-6">
+                <div class="input-group">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </div>
+                    <input type="text" class="form-control" name="username" id="username" />
+                </div>
+            </div>
+        </div>
+    </form>
+
+# Buttons 
 
 
+Modifier	Default color
+Default 	White
+Primary 	Dark blue
+Success 	Green
+Info 	    Light blue
+Warning 	Yellow
+Danger 	    Red
 
 
+    <form class="form-horizontal">
+        <div class="form-group">
+            <div class="col-md-offset-3 btn-group" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" id="first" name="sample" />
+                    First
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" id="second" name="sample" />
+                    Second
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default col-md-offset-3 col-md-4">Submit form</button>
+        </div>
+    </form>
 
-
-
+# Alerts
 
 
 
