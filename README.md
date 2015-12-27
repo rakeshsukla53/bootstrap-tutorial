@@ -390,6 +390,12 @@ Modal dialogs are the ultimate way to get the user's attention, as the user can'
 `bs3-modal`
 
 
+# Bootstrap Code Snippets
+
+http://www.newthinktank.com/2015/11/learn-bootstrap-one-video/
+
+All snippets are here
+
 
 
 
