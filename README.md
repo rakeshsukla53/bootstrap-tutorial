@@ -399,8 +399,21 @@ All snippets are here
 
 # Panel 
 
+A panel in bootstrap is a bordered box with some padding around its content:
 
+# Pagination 
 
+If you have a web site with lots of pages, you may wish to add some sort of pagination to each page.
+
+<ul class="pagination pagination-large">
+	<li><a href="#">&laquo;</a></li>
+	<li><a href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li><a href="#">&raquo;</a></li>
+</ul>
 
 # Google Map
 
