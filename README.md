@@ -355,7 +355,37 @@ Danger 	    Red
 
 # Alerts
 
+    <div class="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <strong>Alert</strong> The page is not avialable
+    </div>
+    
+    <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <strong>Title!</strong> Alert body ...
+    </div>
+    
+    <div class="alert alert-success">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <strong>Title!</strong> Alert body ...
+    </div>
+    
+    <div class="alert alert-warning" role="alert">
+        <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+    </div>
+    
+    <div class="container">
+        <div class="alert alert-warning alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <h3>Warning</h3>
+            <div>It appears that something has gone wrong</div>
+        </div>
+    </div>
 
+
+# Modal Dialogs
+
+Modal dialogs are the ultimate way to get the user's attention, as the user can't interact with the rest of the page without first closing the modal dialog. Modal dialogs can contain whatever HTML you need to present, including status messages, videos, or forms.
 
 
 
