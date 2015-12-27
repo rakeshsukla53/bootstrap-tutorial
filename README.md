@@ -142,3 +142,77 @@ And the final result will be exactly what we wanted it to be. DETAILS on the lef
 
 Refer this page for more detals [link](https://courses.edx.org/courses/course-v1:Microsoft+DEV203x+2015_T4/courseware/a8a0655c02d343b59c4e2e3b113665bd/7149ccaa3e1741169b9e6a62bf515be4/)
 
+**MOBILE FIRST ALWAYS**
+
+# Controlling Visibility
+
+Bootstrap offers you the ability to show or hide content based on both screen size and printing state. The syntax is, as with much of Bootstrap, option-screen.
+
+The two options are either hidden or visible. Both of the options will change the default for all other screen sizes and print. In other words, `hidden-sm` will make the content hidden for small screens, but visible on all others; `visible-sm` will make the content visible on small screens, but visible on all others.
+
+# Navigation
+
+The `navbar` is a Bootstrap component and is designed to provide navigation for the user. It's most commonly placed at the top of a page.
+
+
+**Positioning the navbar**
+
+The first option is to have it appear at the top of the page as a normal element, scrolling, and disappearing off the top of the browser window, along with the rest of the content. This is achieved by adding the `navbar-static-top` class.
+
+The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the `navbar-fixed-top` class.
+
+Finally, you can have the navbar use the same behavior on the bottom of the page with `navbar-fixed-bottom`.
+
+if you are using either fixed option, you are required to add padding to the top (for `navbar-fixed-top`), or bottom (for `navbar-fixed-bottom`) to the body element.
+
+# Tabs
+
+Tabs allow you to display data in different pages, each one with a tab title on top of it. Tabs are perfect for scenarios when you have a lot of data to display, but the user only needs it in smaller chunks, displayed one at a time. One key thing to remember about using tabs is they are restricting the user's ability to scroll.
+
+    Code for it
+    
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Tab1</a></li>
+        <li><a href="#tab2" role="tab" data-toggle="tab">Tab2</a></li>
+        <li><a href="#tab3" role="tab" data-toggle="tab">Tab3</a></li>
+    </ul>
+    <!-- TAB CONTENT -->
+    <div class="tab-content">
+        <div class="active tab-pane fade in" id="tab1">
+            <h2>Tab1</h2>
+            <p>Lorem ipsum.</p>
+        </div>
+        <div class="tab-pane fade" id="tab2">
+            <h2>Tab2</h2>
+            <p>Lorem ipsum.</p>
+        </div>
+        <div class="tab-pane fade" id="tab3">
+            <h2>Tab3</h2>
+            <p>Lorem ipsum.</p>
+        </div>
+    </div>
+
+# ScrollSpy 
+
+Scrollspy is a data display that allows a user to jump directly to the data they wish to see, but also enables scrolling. Like tabs, scrollspy provides navigation tabs. But unlike tabs, scrollspy allows a user to scroll through content as well.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
