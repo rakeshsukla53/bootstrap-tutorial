@@ -198,6 +198,98 @@ Tabs allow you to display data in different pages, each one with a tab title on 
 Scrollspy is a data display that allows a user to jump directly to the data they wish to see, but also enables scrolling. Like tabs, scrollspy provides navigation tabs. But unlike tabs, scrollspy allows a user to scroll through content as well.
 
 
+    <h2>Scrollspy</h2>
+    <div style="position:relative;">
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-static" role="navigation" id="navbar-spy">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#scroll-first">First</a></li>
+          <li><a href="#scroll-second">Second</a></li>
+        </ul>
+      </nav>
+     
+      <!-- Content -->
+      <div data-target="#navbar-spy" data-spy="scroll" style="height:150px; overflow-y:scroll; position:relative;">
+        <div id="scroll-first">
+          <!-- first block of content -->
+        </div>
+        <div id="scroll-second">
+          <!-- second block of content -->
+        </div>
+      </div>
+    </div>
+
+# Accordion
+
+The accordion is built using the panel capabilities of Bootstrap. The container will be decorated with the panel-group class. It will also need an ID to represent the accordion container.
+
+    <div class="panel-group" id="accordion-sample">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion-sample" href="#accordion-sample-one">
+                        Heading One
+                    </a>
+                </h4>
+            </div>
+            <div id="accordion-sample-one" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    Sample content
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion-sample" href="#accordion-sample-two">
+                        Heading Two
+                    </a>
+                </h4>
+            </div>
+            <div id="accordion-sample-two" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Sample content
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+# Carousel
+
+A carousel is a paging data display. It's ideal for looping through a group of photos, or potentially advertisements.
+
+    <div id="carousel-demo" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+         <li data-target="#carousel-demo" data-slide-to="1"></li>
+       </ol>
+       <div class="carousel-inner">
+         <div class="item active">
+           <img alt="First slide" src="image-url" />
+           <div class="carousel-caption">
+             <h3>Caption Heading One</h3>
+             <p>Caption Text One</p>
+           </div>
+         </div>
+         <div class="item">
+           <img alt="Second slide" src="image-url" />
+           <div class="carousel-caption">
+             <h3>Caption Heading Two</h3>
+             <p>Caption Text Two</p>
+           </div>
+         </div>
+       </div>
+       <a class="left carousel-control" href="#carousel-demo" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+       </a>
+       <a class="right carousel-control" href="#carousel-demo" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+       </a>
+    </div>
+
+The carousel control is really four parts. The first part is the container for the carousel. Inside of the container, you will create the set of indicators for the current slide, the container for all of the slides, and the navigation to allow the user to change slides.
 
 
 
