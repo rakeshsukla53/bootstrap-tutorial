@@ -93,5 +93,52 @@ The jumbotron class is a common class for displaying titles for different sectio
 
 `title` 
 
+# Page Design
 
+Understanding page layout using the `grid system`
+
+n that example, we would have created a section for content that is 6 columns wide, or half of the container. If we then added a new row into that space, replacing the sample content, we'd have a brand new 12 columns. However, those new columns would only take up half of the container, as they are inside of a section that is constraining it to 6 initial columns.
+
+<div class='row'>
+  <div class='col-md-6'>
+    <div class='row'>
+      <!-- 12 new columns here -->
+      <!-- This will use half of the container -->
+    </div>
+  </div>
+</div>
+
+**NESTING**
+
+The Bootstrap grid system allows developers to lay out their pages using a system that's similar to tables, but uses CSS positioning instead of tables behind the scenes. One feature tables offer is the ability to create tables inside of a cell, so you can create complex layouts through what's frequently referred to as "nesting". The grid system offers the same capability.
+
+# Controlling Placement
+
+ you can move content to the right 6 columns on extra small screens by using col-xs-push-6. Here are the options available to you:
+
+* offset
+        Offset will instruct Bootstrap to skip the specified number of columns before placing content. With offset, the skipped columns will be left blank.
+        
+  command for offset is
+      
+    <div class="col-md-4 col-md-offset-3">
+       
+        
+* push
+        Push will instruct Bootstrap to move content to the right a specified number of columns. With push, the columns that were left blank can be used by pulling content to the left.
+        
+* pull
+        Pull will instruct Bootstrap to move content to the left a specified number of columns. With pull, the columns that were left blank can be used by pushing content to the right.
+
+We want the display to have LOGO on the right, and DETAILS on the left. So we need to push LOGO over 6, and pull DETAILS over 6. Let's add that in.
+
+    <div class='row'>
+       <div class='col-xs-12  col-md-6  col-md-push-6'>LOGO</div>
+       <div class='col-xs-12  col-md-6  col-md-pull-6'>DETAILS</div>
+    </div>
+
+And the final result will be exactly what we wanted it to be. DETAILS on the left, LOGO on the right for larger displays.
+
+
+Refer this page for more detals [link](https://courses.edx.org/courses/course-v1:Microsoft+DEV203x+2015_T4/courseware/a8a0655c02d343b59c4e2e3b113665bd/7149ccaa3e1741169b9e6a62bf515be4/)
 
