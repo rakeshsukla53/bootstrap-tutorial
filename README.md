@@ -387,6 +387,7 @@ Danger 	    Red
 
 Modal dialogs are the ultimate way to get the user's attention, as the user can't interact with the rest of the page without first closing the modal dialog. Modal dialogs can contain whatever HTML you need to present, including status messages, videos, or forms.
 
+`bs3-modal`
 
 
 
