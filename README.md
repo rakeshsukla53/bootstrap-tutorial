@@ -59,12 +59,12 @@ size between each columns is 15px, there is a size
 
 for example 
 
-<div class="col-md-4">
-<div class="col-xs-1">
-<div class="col-lg-10">
+    <div class="col-md-4">
+    <div class="col-xs-1">
+    <div class="col-lg-10">
 
-<div class="col-md-4"> since here we have not defined any size for small then it will take up all the 12 sizes*
-
+    <div class="col-md-4"> since here we have not defined any size for small then it will take up all the 12 sizes*
+    
 
 The last one will take up the complete row hence a new row will be selected
 
