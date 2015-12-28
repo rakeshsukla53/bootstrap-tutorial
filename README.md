@@ -446,7 +446,12 @@ If you have a web site with lots of pages, you may wish to add some sort of pagi
         </script>   
 
 
+# Pager 
 
+    <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
 
 
 
